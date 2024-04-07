@@ -1,0 +1,101 @@
+.ex-card-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,.95);
+    z-index: 3;
+}
+
+.expanded-div {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+.ex-card {
+    padding: 100px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 8px;
+}
+ .expand-gif {
+    height: 65% !important;
+    width: 60% !important;
+ }
+
+.expand {
+ height: 40vh !important;
+ width: 30vw !important;
+}
+
+.expanded-text {
+    text-transform: capitalize;
+    text-align: left;
+    max-width: 90%;
+    color: #66FCF1 !important;
+    font-weight: 600;
+}
+
+.ex-title {
+    font-size: 200% !important;
+    text-decoration: underline;
+}
+
+li::marker{
+    color: #66FCF1;
+}
+
+.list {
+    margin-top: auto !important;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.close-icon{
+    position: fixed;
+    left: 88%;
+    top: 4%;   
+    font-size: 35px !important;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+.fav-icon {
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    font-size: 70px !important;
+    z-index: 4;
+    color: red;
+}
+
+.fav-icon:hover {
+    cursor: pointer;
+    font-size: 75px !important;
+}
+
+.icon{
+    position: absolute;
+    top: -10%;
+    left: 85%;
+}
+
+.secondary-div{
+    margin-left: 50%;
+    margin-top: -16%;
+}
+
+.target-div{
+    margin-left: 5%;
+}
